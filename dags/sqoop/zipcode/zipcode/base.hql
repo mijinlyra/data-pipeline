@@ -1,4 +1,4 @@
--- 실행 : $ hive -f base.hql --hivevar part_value ="'2023-05-01'"
+-- 실행 : $ hive -f base.hql --hivevar part_value="'2023-05-01'" --띄어쓰기하면 작동안됨
 
 CREATE TABLE IF NOT EXISTS base_zipcode
 (
