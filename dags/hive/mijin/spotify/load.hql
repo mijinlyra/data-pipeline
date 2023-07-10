@@ -26,4 +26,4 @@ DESCRIBE FORMATTED tmp_spotify;
 
 -- 입수 테이블 검증
 --https://stackoverflow.com/questions/44122731/can-you-conditionally-fail-a-hive-script
-SELECT ASSERT_TRUE(COUNT(*)>20) FROM tmp_spotify; --row가 20줄 이상이어야
+SELECT ASSERT_TRUE(COUNT(*)>20) FROM tmp_spotify; --row가 20줄 이상이어야 한다는 검증 
