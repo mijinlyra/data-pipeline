@@ -5,7 +5,7 @@ from airflow.operators.dummy import DummyOperator
 import pendulum
 from mario_airflow_utils import gen_bash_task
 
-local_tz = pendulum._safe_timezone("Asia/Seoul")
+local_tz = pendulum.timezone("Asia/Seoul")
 
 default_args = {
     'owner': 'pd24',
