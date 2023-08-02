@@ -86,7 +86,6 @@ check_execute_task = BashOperator(
     dag = test_dag
 )
 
-
 HQL_PATH = '/home/mijin/code/data-pipeline/dags/sqoop/zipcode/'
 
 # POST CODE
